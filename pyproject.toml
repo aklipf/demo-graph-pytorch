@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "graph_torch"
+version = "0.0.1"
+description = "Batching and calculation demo with Pytorch and graphs."
+authors = ["Astrid Klipfel <astridklipfel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+torch = "^2"
+ase = "*"
+requests = "*"
+
+[tool.poetry.scripts]
+demo = 'graph_torch.calc:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
