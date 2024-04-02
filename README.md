@@ -2,6 +2,12 @@
 
 ## Install
 
+Clone the github project
+```bash
+git clone https://github.com/aklipf/demo-graph-pytorch.git
+cd demo-graph-pytorch
+```
+
 Install poetry
 ```bash
 pip install poetry
