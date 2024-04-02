@@ -17,12 +17,12 @@ def main():
 
     args = parser.parse_args()
 
-    from graph_torch.potential import (
+    from graph_torch import (
         get_qm7_molecules,
         get_graph_from_molecules,
         calculate_potential,
+        save_json,
     )
-    from graph_torch.out import save_json
     import time
 
     molecules = get_qm7_molecules(args.data)
